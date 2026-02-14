@@ -1,0 +1,28 @@
+/* Center everything on the page */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center; /* horizontal center */
+  font-family: Arial, sans-serif;
+}
+
+/* Center heading */
+h1 {
+  text-align: center;
+}
+
+/* Center buttons container */
+.buttons {
+  text-align: center;
+}
+
+/* Style buttons (optional but cleaner look) */
+.button {
+  padding: 10px 20px;
+  margin: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
